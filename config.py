@@ -21,8 +21,7 @@ ADMIN_GROUP_ID = int(_require("ADMIN_GROUP_ID"))
 
 WELCOME_TEXT = os.getenv(
     "WELCOME_TEXT",
-    "Йоу! Хотите заиметь экипу ТШ? Напишите, какой именно товар хотите "
-    "(можно скинуть скриншот) — и мы с вами свяжемся.",
+    "Напишите, какой именно товар вас интересует (можете добавить ссылку или скрин)",
 )
 AUTO_REPLY_TEXT = os.getenv(
     "AUTO_REPLY_TEXT",
